@@ -2,6 +2,7 @@
 
 This Programm write by [Mr.nope](https://github.com/mrprogrammer2938)
 
+[![Translate_Scr](https://user-images.githubusercontent.com/78996423/126587628-52d1854b-3fb5-4377-aaeb-1bfaa6d6ed77.jpeg)](https://github.com/mrprogrammer2938/Translate)
 
 **Installing**
 ```
