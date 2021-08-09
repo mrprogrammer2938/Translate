@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # This Programm write by Mr.nope
-# Version 1.2.0
+# Version 1.3.0
 from os import system as command
 import sys
 try:
@@ -14,7 +14,7 @@ try:
 except ImportError:
     os.system("pip3 install colorama")
 End = '\033[0m'
-opt = "\nEnter: "
+opt = "\nEnter Word: "
 system = uname()[0]
 banner = Fore.BLUE + """
 d888888P                                     dP            dP            
@@ -57,18 +57,13 @@ def ext():
     print("\nExiting...")
     sys.exit()
 def run(var):
-    len = input("\nEnter language1: ")
-    len_2 = input("\nEnter language2: ")
-    run_translate = GoogleTranslator(source=len,terget=len_2).translate(var)
+    print("\nExample(fa/en/es)\n")
+    len = input("\nEnter Source Language: ")
+    len_2 = input("\nEnter target language: ")
+    run_translate = GoogleTranslator(source=len,target=len_2).translate(var)
     print("\n-----------------------------\n")
     print(run_translate)
     try1()
-def try2():
-    try_to_menu_2 = input("\npress Enter...")
-    if try_to_menu_2 == '':
-        main()
-    else:
-        main()
 if __name__ == '__main__':
     try:
         try:
